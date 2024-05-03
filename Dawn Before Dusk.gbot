@@ -210,7 +210,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 9695
+          "QuestID": 9695,
+          "IsInProgress": true
         }
       },
       {
@@ -4095,6 +4096,10 @@
         "Label": "BUY GUIDING"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "ITOKENS"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "INFERNAL TOKENS",
         "Packet": "%xt%zm%aggroMon%106983%3%4%",
@@ -4102,12 +4107,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "ITOKENS"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
+        "Name": "KILL ITOKENS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4162,7 +4162,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "ITOKENS"
+        "Label": "KILL ITOKENS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
@@ -4404,6 +4404,13 @@
         "Label": "KILL COFFEE"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
+        "ActionW": 1,
+        "Label": "BEANS",
+        "Packet": "-LEAVE ME BLANK-",
+        "Delay": 6969
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "RUBBER SOUL"
       },
@@ -4513,7 +4520,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Nothern Crown",
+        "Value1": "Northern Crown",
         "Value2": "10"
       },
       {
@@ -4865,7 +4872,6 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "ProvokeMonsters": true,
-  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
