@@ -210,8 +210,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 9695,
-          "IsInProgress": true
+          "QuestID": 9695
         }
       },
       {
@@ -3562,6 +3561,10 @@
         "Label": "BUY DKNIGHT"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BCASTLE TOKENS"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "BONECASTLE",
         "Packet": "%xt%zm%aggroMon%106638%13%14%15%68%69%",
@@ -3569,12 +3572,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "BCASTLE TOKENS"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
+        "Name": "KILL MOOKS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
