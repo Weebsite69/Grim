@@ -210,7 +210,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 9695
+          "QuestID": 9695,
+          "IsInProgress": true
         }
       },
       {
@@ -1247,7 +1248,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "GOLOMOTH"
+        "Label": "GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -1828,7 +1829,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "GOLOMOTH"
+        "Name": "GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -1858,29 +1859,29 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "CHECK GOLOMOTH"
+        "Name": "CHECK GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Axe of Golomoth",
+        "Value1": "Axe of Golmoth",
         "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL GOLOMOTH"
+        "Label": "KILL GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Scales of Golomoth",
+        "Value1": "Scales of Golmoth",
         "Value2": "15"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL GOLOMOTH"
+        "Label": "KILL GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -1895,15 +1896,15 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "BUY GOLOMOTH"
+        "Label": "BUY GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL GOLOMOTH"
+        "Name": "KILL GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
-        "Label": "GOLOMOTH",
+        "Label": "GOLMOTH",
         "Packet": "%xt%zm%aggroMon%106323%7%",
         "Delay": 500
       },
@@ -1959,7 +1960,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Axe of Golomoth",
+        "Value1": "Axe of Golmoth",
         "Value2": "1"
       },
       {
@@ -1970,7 +1971,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Scales of Golomoth",
+        "Value1": "Scales of Golmoth",
         "Value2": "15"
       },
       {
@@ -1980,13 +1981,13 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "ActionW": 1,
-        "Label": "GOLOMOTH",
+        "Label": "GOLMOTH",
         "Packet": "-LEAVE ME BLANK-",
         "Delay": 6969
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "CHECK GOLOMOTH"
+        "Label": "CHECK GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -2066,11 +2067,11 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "CHECK GOLOMOTH"
+        "Label": "CHECK GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "BUY GOLOMOTH"
+        "Name": "BUY GOLMOTH"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
