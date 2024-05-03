@@ -1898,6 +1898,10 @@
         "Label": "BUY GOLOMOTH"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "KILL GOLOMOTH"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "GOLOMOTH",
         "Packet": "%xt%zm%aggroMon%106323%7%",
@@ -1905,12 +1909,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL GOLOMOTH"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
+        "Name": "AXE AND SCALES"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -1965,7 +1964,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL GOLOMOTH"
+        "Label": "AXE AND SCALES"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -1976,7 +1975,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL GOLOMOTH"
+        "Label": "AXE AND SCALES"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
@@ -1990,6 +1989,10 @@
         "Label": "CHECK GOLOMOTH"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "KILL FIRE"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
         "Label": "TOKEN OF FIRE",
         "Packet": "%xt%zm%aggroMon%106323%5%6%",
@@ -1997,12 +2000,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL FIRE"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2,
-        "IndexString": ""
+        "Name": "FIRE TOKENS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -2057,7 +2055,14 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL FIRE"
+        "Label": "FIRE TOKENS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBackgroundPacket, Grimoire",
+        "ActionW": 1,
+        "Label": "TOKEN OF FIRE",
+        "Packet": "-LEAVE ME BLANK-",
+        "Delay": 6969
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
