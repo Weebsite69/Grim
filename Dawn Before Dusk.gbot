@@ -593,8 +593,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7781,
-          "IsInProgress": true
+          "QuestID": 7781
         }
       },
       {
@@ -1729,6 +1728,10 @@
         "IndexString": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1111
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
         "ShopId": 2321
       },
@@ -2232,7 +2235,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
         "ItemName": "Fortitude Tonic",
-        "Qty": 1
+        "Qty": 14
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -4858,6 +4861,7 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "ProvokeMonsters": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
