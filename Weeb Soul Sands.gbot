@@ -378,7 +378,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Dark Token",
-        "Value2": "400"
+        "Value2": "80"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
