@@ -46,7 +46,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7991
+          "QuestID": 7991,
+          "IsInProgress": true
         }
       },
       {
@@ -196,7 +197,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Bone Dust",
-        "Value2": "5994"
+        "Value2": "333"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -377,7 +378,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Dark Token",
-        "Value2": "1440"
+        "Value2": "400"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -557,8 +558,8 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Soul Sand",
-        "Value2": "18"
+        "Value1": "Dage's Favor",
+        "Value2": "400"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -608,7 +609,7 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Soul Sand",
-        "Value2": "7"
+        "Value2": "50"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
